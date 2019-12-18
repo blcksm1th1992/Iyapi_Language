@@ -1,0 +1,12 @@
+wowapi "I have some questions"
+
+kha "Enter your name:" $name
+wowapi "Your name is" wowapi $name
+
+kha "Enter your age:" $age
+wowapi "You are" wowapi $age
+
+kha "What is two plus two:" $four
+wowapi "Right" wowapi $four
+
+wowapi "That's All"

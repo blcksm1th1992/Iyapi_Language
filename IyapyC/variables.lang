@@ -1,0 +1,8 @@
+$m = "Hello Berg"
+$p = 34
+$l = 4+3+4-90*36/23
+
+wowapi $m
+wowapi $p
+wowapi $l
+wowapi " "

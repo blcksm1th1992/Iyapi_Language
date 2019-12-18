@@ -1,0 +1,59 @@
+WOWAPI:
+Is the function for strings, numbers or expressions.
+
+Example:
+Code:
+    wowapi 10
+    wowapi "Hello World"
+    wowapi 10+4*2
+
+Output:
+    10
+    Hello World
+    18
+
+VARIABLES:
+The variables initialize with the use of the $.
+
+Example:
+Code:
+    $variable = 10
+    $var2 = "Hello Berg"
+    
+    wowapi $variable
+    wowapi $var2
+
+Output:
+    10
+    Hello Berg
+
+KhA (USER INPUT):
+
+KhA is one of the Lakota words for remark or input. In the 0.1 version it takes in only
+Strings input from the user and saves it in a variable. 0.1.1 hopefully will hold numerical 
+and expression values.
+
+Example:
+Code:
+    kha "Enter your name:" $name
+    
+Output:
+    Enter your name: [type in name here] Blcksm1th1992
+    [returns] Blcksm1th1992
+    
+IF STATMENTS:
+heci, is the Lakota word that closely translates to if. Sense this computer language is heavily
+based on BASIC, these will be formatted loosely on traditional if-then statements. ehan is the
+the closest traslation to then. ihanke is the end, so we can end the if statements.
+
+Example:
+Code:
+    heci 1 == 1 ehan
+        wowapi "Hello Berg"
+    ihanke
+
+Output:
+    Hello Berg
+
+   
+
